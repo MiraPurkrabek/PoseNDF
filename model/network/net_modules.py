@@ -20,7 +20,7 @@ class DFNet(nn.Module):
 
         for l in range(0, self.num_layers - 1):
             out_dim = dims[l + 1]
-            lin = nn.Linear(dims[l], out_dim)
+            lin = nn.Linear(int(dims[l]), int(out_dim))
 
             # if weight_norm:
             #     lin = nn.utils.weight_norm(lin)

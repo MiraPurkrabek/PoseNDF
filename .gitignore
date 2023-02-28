@@ -11,3 +11,6 @@ data/noisy_samples.py
 data/clean_samples.py
 data/data_verification
 experiments/scripts/*
+
+output/
+models/
